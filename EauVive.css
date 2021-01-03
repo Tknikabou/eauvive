@@ -1,0 +1,291 @@
+fieldset
+{
+    background-color: rgb(21, 207, 240);
+
+}
+br.puce1
+{
+    text-align: center;
+}
+
+#nouscontacter{
+    background-color: rgb(121, 201, 248);
+    text-align: center;
+    border-radius: 1em;
+}
+
+#visiteur{
+    float:left;  
+}
+
+#fcontact{
+    float:left;  
+  
+}
+
+#search{
+    width: 60%; 
+    
+}
+
+
+.element-flexible{
+    float: left;
+    padding: 3em;
+    width: 25%;
+    max-width: 100%;
+    background-size: 25%;
+    background-color:;
+    padding-left: 4em;
+    margin-bottom: 15%;
+    
+}
+
+#element1,#element2,#element3{
+    
+    background-color:rgb(171, 221, 228);
+    border-radius: 2em;
+    margin-left: 0.5em;
+   
+}
+
+
+.savoirplus{
+    text-align: center;
+    background-color: rgb(21, 207, 240);
+    border-radius: 4em;
+    font-size: large;
+    padding: 0.5em;
+   
+}
+
+.titrecom{
+    text-align: center;
+}
+
+
+
+
+#commission{
+    float: left;
+    background-color: rgb(21, 207, 240);
+    width: 60%;
+    text-align: justify;
+    padding: 1em;
+}
+
+
+#temoina {
+    float: right;
+    background-color: rgb(21, 207, 240);
+    width: 75%;
+    text-align: justify;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    padding: 1em;
+    font-size: large;
+
+}
+#footer-cit{
+    margin-top: 68em;
+}
+
+
+#collectivite {
+    float: left;
+    background-color: rgb(21, 207, 240);
+    width: 50%;
+    text-align: justify;
+    margin-left: 1em;
+    margin-bottom: 30%;
+    padding: 1em;
+
+}
+
+.partenaire1{
+    
+    display: block;
+    float: left; 
+}
+
+#imgarlette{
+    float: left;
+}
+
+#com-bouch{
+   padding-top: 5em;
+}
+#commission{
+    padding-top: 5em;
+ }
+
+ #hightcontent{
+     padding-top: 1em;
+     padding-bottom: 5em;
+ }
+ #hightcontent1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#body{
+    margin: 1em;
+}
+
+#leftcontent{
+    float: left;
+    width: 70%;
+    margin-bottom: 8%;
+    text-align: justify;
+}
+#rightcolon{
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    width: 20%;
+    margin-top: -6%;
+    margin-left: 77%;
+    padding-left: 2%;
+    background-color: rgb(21, 207, 240);
+   margin-bottom: 10%;
+}
+   
+
+#infopratique{
+   padding-left: 800px;
+    padding-top: 100px;
+    background-color: rgb(231, 236, 236);
+    padding-bottom: 105px;
+}
+
+#pagecontact{
+    padding-bottom: 80px;
+    padding-top: 50px;  
+}
+
+.logopartenaire{
+    height: 500px;
+    background-color: rgb(171, 221, 228);
+}
+
+        form {
+        /* Pour centrer le formulaire sur la page */
+        height: 300px;
+        width: 800px;
+        /* Pour voir le contour */
+        padding: 2em;
+        border: 2px solid #ccc;
+        border-radius: 2em;
+        }
+
+        label {
+        /* Pour être sûr que tous les labels auront la même taille et seront correctement alignés */
+        display: inline-block;
+        width: 140px;
+        text-align: left;
+        }
+
+        input,textarea
+        {
+        /* Pour être sûr que tous les champs text auront la même font. Par defaut, textareas : monospace font */
+        font: 1em sans-serif;
+        /* même taille pour les champs text */
+        width: 780px;
+        box-sizing: border-box; /* Pour harmoniser the look & feel des bordures des champs text */
+        border: 1px solid #999;
+        }
+
+        div#bouton
+        input
+        {
+        /* Même font que les autres*/
+        font: 1em sans-serif;
+        /* taille boutons */
+        width: 200px;
+        box-sizing: border-box; /* Pour harmoniser the look & feel des bordures des champs text */
+        border: 1px solid #999;
+      
+        }
+
+        fieldset {
+            display: inline;
+        }
+
+        #anita{
+            float:left;
+        }
+
+        body{
+            margin: 1em;
+            margin-top: auto;
+         }
+
+            .menu-nav{
+            position:absolute;
+            width:100%;
+            overflow:hidden;
+            font-weight:large;
+            margin-bottom: 50em;
+           }
+
+           .menu-nav li{
+            list-style:none;
+            float: left;
+            width:25%;
+            }
+
+            .menu-nav ul{
+                margin:0px;
+                padding: 0px;
+            }
+            
+            
+            
+            .menu-nav{
+                width: 100%;
+                background-color:  rgb(21, 207, 240);
+                margin-bottom: 25em;
+            }
+
+            .menu-nav a{
+                display: inline-block;
+                text-decoration: none;
+                padding: 20px 30px;
+                color: #FFF;
+                text-transform: uppercase;
+                font-size: 15px;
+            }
+
+            .menu-acc:hover{
+                border-top: 5px solid #4c8;
+                background-color: RGBa(64,200,130,0.15);
+            }
+            .menu-mis:hover{
+                border-top: 5px solid #e44d26;
+                background-color: RGBa(228,77,38,0.15);
+            }
+            .menu-act:hover{
+                border-top: 5px solid #f1dc4f;
+                background-color: RGBa(241,211,79,0.15);
+            }
+            
+            .menu-cont:hover{
+                border-top: 5px solid #0070bb;
+                background-color: RGBa(000,112,192,0.15);
+            }
+            
+           
+            
+
+
+            footer{
+                height: 100px;
+                padding-top: 30px;
+                text-align: center;
+                background-color: #C5C5C5;
+                border-top: 2px solid #AAA;
+               
+            }
+            footer, li{
+                list-style: none;
+            }
+         
+            
