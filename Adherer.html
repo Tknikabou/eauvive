@@ -5,11 +5,12 @@
         <title>Association Eau vive pau-pyrénées</title>
         <link rel="stylesheet" href="EauVive.css">
     </head>
+    <body>
     <header>
-        
         <div id="logo">
             <img src="LogosPartenaires/logo_association_Eau_vive_pau_pyrénées.png" alt="logo">
         </div>
+		<div id="hightcontent2">
         <nav class="menu-nav">
             <div class="menu">
                 <ul>
@@ -29,72 +30,62 @@
                 </ul>
         </div>
         </nav>
+     </div>
     </header>
-
-
-    <body>
-        <div id="nouscontacter">
-            <h1>NOUS CONTACTER</h1>
-            <h2>Formulaire de contact</h2>
-            <p>Merci de completer le formulaire suivant pour nous contacter.Tous les chanmps du formulaire sont réquis</p>
+		<div id="adhesion1">
+		<h1>Formulaire d'adhésion</h1>
+        <p>Merci de completer ce formulaire suivant pour adherer l'association,tous les chanmps du formulaire sont obligatoires.</p>
         </div>
-
-        <section id="pagecontact">
-        <form id="fcontact" action="mercicontact.html">
-                    <div>
-                       
-                        <fieldset>
-                            <legend>Votre identité</legend> 
-                                <label for="fName">Prénom </label>
-                                <input type="text"name="Fname" id="Fname" required autofocus placeholder="Votre prénom">
-                        <div>
-                                <label for="lName">Nom de famille </label>
-                                <input type="text"name="lname" id="lname" required placeholder="Votre nom de famille">
-                        </div>
-                                <label for="email">Votre e-mail</label>
-                                <input type="email"name="email" id="email" required placeholder="Votre e-mail"> 
-
-                        </fieldset> 
-
-                        <fieldset>
-                            <legend><label for="message"> Votre message </label></legend>
-                               
-                            <textarea name="message" id="message" maxlength="80" required placeholder="Message"></textarea>
-
-                            </fieldset>
-                          
-                   </div>
-
-                        <button type="submit"id="boutoncontact"> Envoyer </button>
-        </form>   
-    </section>
-
-    <section>
-        <aside id="rightcolon">
-
-            <section id="pagesearch">
-                <h2><label for="search">Rechercher</label></h2>
-                <input type="search" name="search" id="search"/>
-            </section>
-
-            <section id="organisation">
-                <h2>Notre organisation</h2>
-                <ul>
-                    <li><a href="CommissionBouchon.html"> Commission Bouchon</a></li>
-                    <li><a href="CommissionCitoyennete.html"> Commission EDCSI</a></li>
-                    <li><a href="CommissionCollectivités.html"> Commission Collectivités locales</a></li>
-                </ul>
-            </section>
-
-            <section id="Agir">
-                <h2>Agir avec nous</h2>
-                <ul>
-                    <li><a href="#"> Adhérer</a></li>
-                    <li> <a href="#"> Faire un don</a></li>
-                </ul>
-            </section>
-        </aside>
- </section>
+        <div>
+		<form id="adherer">
+			<fieldset>
+				<legend><strong>Formulaire d'adhesion</strong></legend>
+				Nom :<input type="text" name="nom" size=25 maxlenght=35 required autofocus placeholder="Votre nom"><br>
+				Prénom :<input type="text" name="prénom" size=25 maxlenght=35 required autofocus placeholder="Votreprénom"><br>
+				Adresse :<input type="text" name="adresse" size=60 maxlenght=90 required autofocus placeholder="votre adresse"><br>
+				Numero de telephone : <input type="text" name="portable" size=20 maxlenght=20 required autofocus placeholder="votre numero de telephone"><br>
+				Adresse mail :<input type="text" name="Mail" size=60 maxlenght=90 required autofocus placeholder="Votre adresse mail"><br>
+			</fieldset>
+			<fieldset ><legend><strong>Vous êtes</strong></legend><br>
+                <div id="aligner">
+                <input type=radio name=« case1 » value=«particulier»>Un particulier
+				<input type=radio name=« case1 » value=«Entreprise»>Une entreprise
+                <input type=radio name=« case1 » value=«Association»>Une association <br>
+            </div>
+			</fieldset>
+			<fieldset>
+				<legend><strong> Votre message </strong></legend>
+				<textarea name="message" id="message" maxlength="90" required placeholder="Message"></textarea>
+			</fieldset> 
+			<input type="submit" id="bouton2"value =" Envoyer" />
+		</form>
+        </div>
+        <section>
+            <aside id="rightcolon">
+    
+                <section id="pagesearch">
+                    <h2><label for="search">Rechercher</label></h2>
+                    <input type="search" name="search" id="search"/>
+                </section>
+    
+                <section id="organisation">
+                    <h2>Notre organisation</h2>
+                    <ul>
+                        <li><a href="CommissionBouchon.html"> Commission Bouchon</a></li>
+                        <li><a href="CommissionCitoyennete.html"> Commission EDCSI</a></li>
+                        <li><a href="CommissionCollectivités.html"> Commission Collectivités locales</a></li>
+                    </ul>
+                </section>
+    
+                <section id="Agir">
+                    <h2>Agir avec nous</h2>
+                    <ul>
+                        <li><a href="#"> Adhérer</a></li>
+                        <li> <a href="#"> Faire un don</a></li>
+                    </ul>
+                </section>
+            </aside>
+     </section>
 
 
         <section id="visiteur" >
