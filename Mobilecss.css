@@ -1,0 +1,36 @@
+@media all and (max-width: 100px)
+{
+    .imageaccueil
+    {
+        
+    }
+    
+
+}
+
+
+
+nav{
+    width: auto;
+    text-align: left;
+}
+nav ul{
+    flex-direction: column;
+}
+nav li{
+    padding-left: 1px;
+}
+nav a{
+    font-size: 0.5em;
+}
+nav a:hover{
+    border-bottom: 0;
+}
+
+.imageaccueil img{
+    display: none;
+}
+
+#rightcolon{
+    display: none;
+}

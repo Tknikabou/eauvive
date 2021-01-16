@@ -11,19 +11,28 @@ br.puce1
     text-align: center;
 }
 
-#nouscontacter{
-    background-color: rgb(121, 201, 248);
+#contacter{
+  
     text-align: center;
-    border-radius: 1em;
-    
+    padding-right: 27em;
+      
+}
+
+body #contacter h1 {
+    padding-top: 6em;
+
 }
 
 #visiteur{
     float:left;  
+    margin-top:12em ;
+    padding-left: 4em;
 }
 
 #fcontact{
     float:left;  
+    margin-left: 6em;
+    margin-top: -2em;
   
 }
 
@@ -90,21 +99,38 @@ br.puce1
 
 #temoina {
     float: right;
-    background-color: rgb(21, 207, 240);
-    width: 75%;
+    width: 69%;
     text-align: justify;
-    margin-bottom: 5em;
-    margin-left: 1em;
-    padding: 1em;
+    margin-bottom: 6em;
+    margin-top: 0.5em;
+    margin-right: 2em;
+    padding: 2em;
     font-size: large;
-
+    box-shadow: 6px 6px 0px #12BFF4;
+    border: solid 1px;
+    text-align: justify;
 }
+
+#temoin {
+    float: right;
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 6em;
+    margin-top: 0.5em;
+    margin-right: 2em;
+    padding: 2em;
+    font-size: large;
+    box-shadow: 6px 6px 0px #12BFF4;
+    border: solid 1px;
+    text-align: justify;
+}
+
 #footer-cit{
     margin-top: 68em;
 }
 
 
-#collectivite {
+collectivite {
     float: left;
     background-color: rgb(21, 207, 240);
     width: 50%;
@@ -122,8 +148,24 @@ br.puce1
 }
 
 #imgarlette{
-    float: left;
+    float: right;
+    margin-right: 5em;
 }
+
+ #p{
+   border-bottom: solid 1px;
+   background-color: rgb(234, 245, 247);
+   padding:1.5em;
+     }
+
+ #pp{
+        border-bottom: solid 1px;
+        background-color: rgb(234, 245, 247);
+        padding:1.5em;
+        font-size: large;
+        margin: 3em;
+          }
+     
 
 #com-bouch{
    padding-top: 6em;
@@ -132,9 +174,14 @@ br.puce1
 }
 
 #com-bouchon{
-    margin-left:35%;
-    background-color: rgb(21, 207, 240);
+    margin-right:50%;
     font-size: large;
+    border: solid 1px;
+   box-shadow: 6px 6px 0px #12BFF4;
+   margin-left: 5em;
+   padding: 2em;
+   text-align: justify;
+
 }
 
 #com-bouch>p{
@@ -241,6 +288,7 @@ br.puce1
 }
 #body{
     margin:1em;
+    width: 100%;
 }
 
 #leftcontent{
@@ -267,11 +315,13 @@ br.puce1
     padding-top: 100px;
     background-color: rgb(231, 236, 236);
     padding-bottom: 105px;
+    margin-top: 25em;
 }
 
 #pagecontact{
-    padding-bottom: 80px;
+    padding-bottom: 280px;
     padding-top: 80px;  
+    
 }
 
 .logopartenaire{
@@ -338,6 +388,8 @@ br.puce1
 
         #anita{
             float:left;
+            margin-left: 2em;
+            margin-top: 1em;
         }
 
 
@@ -648,37 +700,33 @@ br.puce1
             }
           
 
-
-            @media all and (max-widht:1024px)
-            {
-                body{
-                    width:auto;
-                }
-
-                nav{
-                    width: auto;
-                    text-align: left;
-                }
-                nav ul{
-                    flex-direction: column;
-                }
-                nav li{
-                    padding-left: 4px;
-                }
-                nav a{
-                    font-size: 1em;
-                }
-                nav a:hover{
-                    border-bottom: 0;
-                }
-                .imageaccueil{
-                    display: none;
-                }
-                #rightcolon{
-                    display: none;
-                }
+           #pagesearch label {
+                display: block;
+                
             }
+            
+            #pagesearch input,
+            label {
+                margin: .4rem 0;
+            }
+            
+
+            .titrecomi{
+              border-style:underline;
+              color: #12BFF4;
+            
+            }
+            .titrecomii{
+                border-style:underline;
+                color: #12BFF4;
+               margin-top: 2em;
+               text-align: center;
+               font-size: 3em;
+               font-weight: bold;
+   
+              }
 
 
+              
 
-          
+
