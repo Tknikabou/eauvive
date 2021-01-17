@@ -6,10 +6,7 @@ fieldset
     font-weight: bold;
 
 }
-br.puce1
-{
-    text-align: center;
-}
+
 
 #contacter{
   
@@ -130,17 +127,6 @@ body #contacter h1 {
 }
 
 
-collectivite {
-    float: left;
-    background-color: rgb(21, 207, 240);
-    width: 50%;
-    text-align: justify;
-    margin-left: 1em;
-    margin-bottom: 30%;
-    padding: 1em;
-
-}
-
 .partenaire1{
     
     display: block;
@@ -231,6 +217,7 @@ collectivite {
 
 #logpart{
     margin-top: 30em;
+    padding-top: 2em;
 }
 
 #organisation{
@@ -315,8 +302,31 @@ collectivite {
     padding-top: 100px;
     background-color: rgb(231, 236, 236);
     padding-bottom: 105px;
-    margin-top: 25em;
+    margin-top: 13em;
 }
+
+#infopratique1{
+    padding-left: 800px;
+     padding-top: 100px;
+     background-color: rgb(231, 236, 236);
+     padding-bottom: 105px;
+     margin-top: 34em;
+ }
+ #infopratique2{
+    padding-left: 800px;
+     padding-top: 100px;
+     background-color: rgb(231, 236, 236);
+     padding-bottom: 105px;
+     margin-top: 22em;
+ }
+ #infopratique3{
+    padding-left: 800px;
+     padding-top: 100px;
+     background-color: rgb(231, 236, 236);
+     padding-bottom: 105px;
+     margin-top: 16em;
+ }
+ 
 
 #pagecontact{
     padding-bottom: 280px;
@@ -348,7 +358,7 @@ collectivite {
         width: 800px;
         /* Pour voir le contour */
         padding: 3em;
-        padding-bottom: 10em;
+        padding-bottom: 18em;
         border: 2px solid #ccc;
         border-radius: 2em;
         }
@@ -488,20 +498,28 @@ collectivite {
            }
            .imageaccueil{
                padding-top: -2em;
+               display: flex;
            }
 
-            footer{
-                height: 200px;
+            #footer{
+                width: 100%;
+                height: 150px;
                 padding-top: 30px;
                 text-align: center;
-                background-color: #000000;
+                background-color:  #12BFF4;
                 border-top: 2px solid #AAA;
-               
-            }
-            footer, li{
-                list-style: none;
+                
             }
 
+            footer li{
+                list-style: none;
+                display: inline;
+                margin-right: 5em;
+                font-size: medium;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+            }
+           
             h1{
                 color: #12BFF4;
                 font-size: 28px;
@@ -550,6 +568,32 @@ collectivite {
             transform: scale(0.98);
             transition: 0.2s;
         }
+        #bouton0{
+            font-size: 1.5em;
+            font-weight: bold;
+            border: none;
+            background-color:#12BFF4;
+            border-radius: 3px;
+            cursor: pointer;
+            outline: none;  
+            padding: 0.5em;
+            color: seashell;
+            margin-top: -1em;
+            margin-left: 80%;
+
+        }
+
+        #bouton0:hover{
+            transform: scale(1.01);
+            transition: 0.2s;
+            color: rgb(8, 8, 8);
+        }
+
+        #bouton0:active{
+         transform: scale(0.98);
+         transition: 0.2s;
+     }
+
 
         #bouton2{
             font-size: 1.5em;
@@ -576,6 +620,32 @@ collectivite {
          transition: 0.2s;
      }
 
+     #bouton3{
+        font-size: 2em;
+        font-weight: bold;
+        border: none;
+        background-color:#12BFF4;
+        border-radius: 3px;
+        cursor: pointer;
+        outline: none;  
+        padding: 0.5em;
+        color: seashell;
+        margin-top: 0.5em;
+        margin-left: 10em;
+    }
+
+    #bouton3:hover{
+        transform: scale(1.01);
+        transition: 0.2s;
+        color: rgb(8, 8, 8);
+    }
+
+    #bouton3:active{
+     transform: scale(0.98);
+     transition: 0.2s;
+ }
+
+    
 
         .conta:hover{
             transform: scale(9);
@@ -612,16 +682,13 @@ collectivite {
            
 
 
-           #don{
+           #dons{
             font-size: 1.5em;
             font-weight: bold;
         }
          /*------------------------------------------------------------------------------------------------------------------------------*/
+          
            
-
-            #logpart{
-                margin-top: 200em;
-            }
             
             #organisation1 p{
                 text-align: ;
@@ -657,6 +724,7 @@ collectivite {
                 text-align: justify;
                 margin-right: 4em;
                 padding-right: -1em;
+                margin-bottom: 1em;
                
             }
             
@@ -668,13 +736,18 @@ collectivite {
                 padding-right: -1em;
                 float: right;
                 overflow: hidden;
+                margin-bottom: auto;
             }
 
             .international{
+            
+                text-align: center;
+            }
 
-                margin-top: 400em;
-                
-
+            #inter{
+                margin-top: 50em;
+              
+                width:auto;
             }
             
             #adhesion1{
@@ -729,4 +802,107 @@ collectivite {
 
               
 
+              #don1 form {
+                /* Pour centrer le formulaire sur la page */
+                height: 300px;
+                width: 800px;
+                /* Pour voir le contour */
+                padding: 3em;
+                padding-bottom: 25em;
+                border: 2px solid #ccc;
+                border-radius: 2em;
+                float: left;
+                margin-left: 3em;
+                }
+        
+                label {
+                /* Pour être sûr que tous les labels auront la même taille et seront correctement alignés */
+                display: inline-block;
+                width: 100px;
+                text-align: left;
+                }
+        
+                #don1 input
+                {
+                /* Pour être sûr que tous les champs text auront la même font. Par defaut, textareas : monospace font */
+                font: 1em sans-serif;
+                /* même taille pour les champs text */
+                width: 400px;
+                box-sizing: border-box; /* Pour harmoniser the look & feel des bordures des champs text */
+                border: 1px solid #999;
+                }
+        
+                               
+        
+                #don1 fieldset {
+                    display: inline;
+                }
 
+                #don{
+                    padding-top: 15em;
+                    padding-bottom: 2em;
+                    font-size: 0.5em;
+                    text-align: center;
+                                      }
+            #tableau{
+                    
+                     padding-bottom: 20em;
+                     font-size: 1.1em;
+                     text-align: justify;
+                     padding-top: 4em;
+                     margin-left: 55em;
+                      }
+                                         
+            #tableau1 {
+                     
+                     background-color: #7cd2ec;
+                   margin: 2em;
+                     
+                     }
+
+                     #donentete{
+                         margin-top: -25;
+                     }
+
+                     /*-----------------------------------------------------------------*/
+                     @media screen and (max-width: 800px){
+                         .menu-nav {
+                             flex-direction: column;     
+                             
+                         }
+
+                         .menu-acc{
+                             height: 50px;
+                         }
+                         .menu-act{
+                            height: 50px;
+                        }
+
+                        .menu-cont{
+                            height: 50px;
+                        }
+                        #imageaccueil{
+                            display: none;
+                        }
+
+                        #qui{
+                            width: 100%;
+                            margin-bottom: 25em;
+                            
+                        }
+                        #organisation{
+                            width: 100%;
+                            margin-left: 3em;
+                        }
+                        #infopratique{
+                            width: 100%;
+                           
+                        }
+                        .element-flexible{
+                            width: 100%;
+                        }
+
+                        #rightcolon{
+                            display: none;
+                        }
+                     }

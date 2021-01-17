@@ -24,7 +24,7 @@
                         <a href="Nosactions.html" title="Vers la page nos actions de l'association">Nos actions</a>
                     </li> 
                     <li class="menu-act">
-                        <a href="Nosactions.html" title="Vers la page nos actions de l'association">Agir avec nous</a>
+                        <a href="Nousoutenir.html" title="Vers la page Agir avec nous de l'association">Agir avec nous</a>
                     </li> 
                     <li class="menu-cont">
                         <a href="Contact.html" title="Vers la page contacter nous de ce site">Nous Contacter</a>
@@ -66,7 +66,7 @@
 </section>
 
 		<div id="tableau">
-                <p2>*Défiscalisation: Un reçu fiscal vous sera envoyé avant février 2021: 66% de votre adhésion/ don sont déductibles de votre impot sur vos</br>
+                <p2><strong>*Défiscalisation:</strong> Un reçu fiscal vous sera envoyé avant février 2021: 66% de votre adhésion/ don sont déductibles de votre impot sur vos</br>
                 revenus dans la limite de 20% de votre revenu imposable.</p2>
 
             <table id="tableau1"border = "1" cellpadding = "5">
@@ -77,9 +77,40 @@
             </table>
         </div>
 
+
+    </header>
+    <div id="adhesion1">
+    <h1>Formulaire d'adhésion</h1>
+    <p>Merci de completer ce formulaire suivant pour adherer l'association,tous les chanmps du formulaire sont obligatoires.</p>
+    </div>
+    <div>
+    <form id="adherer">
+        <fieldset>
+            <legend><strong>Formulaire d'adhesion</strong></legend>
+            Nom :<input type="text" name="nom" size=25 maxlenght=35 required autofocus placeholder="Votre nom"><br>
+            Prénom :<input type="text" name="prénom" size=25 maxlenght=35 required autofocus placeholder="Votreprénom"><br>
+            Adresse :<input type="text" name="adresse" size=60 maxlenght=90 required autofocus placeholder="votre adresse"><br>
+            Numero de telephone : <input type="text" name="portable" size=20 maxlenght=20 required autofocus placeholder="votre numero de telephone"><br>
+            Adresse mail :<input type="text" name="Mail" size=60 maxlenght=90 required autofocus placeholder="Votre adresse mail"><br>
+        </fieldset>
+        <fieldset ><legend><strong>Vous êtes</strong></legend><br>
+            <div id="aligner">
+            <input type=radio name=« case1 » value=«particulier»>Un particulier
+            <input type=radio name=« case1 » value=«Entreprise»>Une entreprise
+            <input type=radio name=« case1 » value=«Association»>Une association <br>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend><strong> Votre message </strong></legend>
+            <textarea name="message" id="message" maxlength="90" required placeholder="Message"></textarea>
+        </fieldset> 
+        <input type="submit" id="bouton2"value =" Envoyer" />
+    </form>
+    </div>
+
         <section id="visiteur" >
             <div class="content">
-                <h1>NOUS VISITER </h1>
+                <h2>NOUS VISITER </h2>
                 <div class="localisation">         
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5806.739466080077!2d-0.39454500000000003!3d43.306519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd564f1596ee809d%3A0xdf02a819f21ab827!2s2%20Espl.%20Vandenberghe%2C%2064140%20Bill%C3%A8re%2C%20France!5e0!3m2!1sfr!2sus!4v1610789965022!5m2!1sfr!2sus" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
@@ -122,7 +153,7 @@
     
             </section>
                    
-            <footer>
+            <footer id="footer">
             <nav>
                 <li><a href="#">Mention légale</a></li>
                 <li><a href="#">Charte graphique </a></li>
